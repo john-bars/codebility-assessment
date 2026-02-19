@@ -14,10 +14,12 @@ const PostPage = async ({ params }) => {
   }
 
   return (
-    <main>
+    <main className="flex flex-col items-center">
       <Link href="/">Back to Blogs</Link>
       <div className="mt-10">
-        <h1>{post.title}</h1>
+        <h1 className="my-10 text-primary text-4xl font-semibold ">
+          {post.title}
+        </h1>
         <p>
           {new Date(post.date).toLocaleDateString("en-US", {
             year: "numeric",
