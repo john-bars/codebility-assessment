@@ -12,8 +12,8 @@ const HomePage = async () => {
     console.error("Error fetching posts: ", error);
   }
   return (
-    <main className="flex flex-col items-center">
-      <h1 className="my-10 text-primary text-6xl font-bold">Blogs</h1>
+    <main className="flex flex-col items-center my-20">
+      <h1 className="mb-10 text-primary text-6xl font-bold">Blogs</h1>
 
       {posts.length === 0 ? (
         <p className="text-secondary text-3xl">No posts available</p>
