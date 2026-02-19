@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/posts/[id]/page.jsx", "app/api/posts/route.js", "app/page.jsx"  ],
   "exclude": ["node_modules"]
 }
